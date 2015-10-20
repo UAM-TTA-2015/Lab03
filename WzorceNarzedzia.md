@@ -4,11 +4,27 @@
 
 ### Polimorfizm, dziedziczenie, hermetyzacja (enkapsulacja)
 
-TODO
+Filary programowania obiektowego okazują się mieć, poza oczywistymi zaletami, również pewne wady. Jeżeli chcemy tworzyć wysokiej jakości kod, musi świadomie z nich korzystać.
+Warto również wiedzieć o zastosowaniach tych mechanizmów w testach automatycznych.
+* Dziedziczenie - jest jednym z najbardziej problematycznych elementów programowania obiektowego jeżeli chodzi o tworzenie wysokiej jakości kodu.
+Gdy jest stosowany prawidłowo (i z umiarem) nie przeszkadza w tworzeniu wysokiej jakości kodu.
+Stosowany nieprawidłowo wprowadza ukryte zależności i znacząco utrudnia testowanie. 
+Razem z polimorfizmem jest filarem dla testów jednostkowych - dzięki niemu możemy zastąpić implementacje produkcyjne obiektami zastępczymi.
+* Polimorfizm - a dokładniej polimorfizm interfejsu - pozwala nam na zastępowanie implementacji poszczególnych metod, nie zmieniając obiecanego kontraktu.
+Dzięki temu możemy zastąpić implementację produkcyjną wersją testową - zamiast odwołać się do bazy danej operować na pamięci, zwrócić spodziewany wynik itp.
+* Hermetyzacja (enkapsulacja) - prawidłowo stosowana ułatwia tworzenie łatwo testowalnego, wysokiej jakości kodu.
+Dzięki ukryciu wewnętrznej struktury klasy mamy możliwość wprowadzania w niej zmian bez konieczności modyfikacji konsumentów naszej klasy.
+Powstały w ten sposób kontrakt testujemy jednostkowo, zgodnie z wymaganiami co do danej klasy. 
 
 ### Zbiór zasad dla OOP - SOLID
 
-TODO
+* Single responsibility principle - Klasa powinna mieć tylko jedną odpowiedzialność (nigdy nie powinien istnieć więcej niż jeden powód do modyfikacji klasy).
+* Open/closed principle - Przy zmianie wymagań nie powinien być zmieniany stary działający kod, ale dodawany nowy, który rozszerza zachowania (Open for extension, closed for modification).
+* Liskov substitution principle - Korzystanie z funkcji klasy bazowej musi być możliwe również w przypadku podstawienia instancji klas pochodnych.
+* Interface segregation principle - Klienci nie powinni zależeć od interfejsów, których nie używają.
+* Dependency inversion principle - Wysokopoziomowe moduły nie powinny zależeć od modułów niskopoziomowych - zależności między nimi powinny wynikać z abstrakcji.
+
+[Źródło](https://pl.wikipedia.org/wiki/Solid_(programowanie_obiektowe))
 
 ### Wzorzec Inversion Of Control (IoC) i Dependency Injection (DI)
 
@@ -38,6 +54,8 @@ TODO
 ### Kontener IoC / DI
 
 TODO
+* Constructor injection - TODO
+* Property injection - TODO
 
 ### Kontenery IoC na platformę .NET
 
