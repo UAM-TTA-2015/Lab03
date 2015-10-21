@@ -71,7 +71,15 @@ Na naszych zajęciach będziemy głównie korzystać z kontenera AutoFac.
 
 ### NuGet
 
-TODO
+NuGet to narzędzie do zarządzania pakietami wykorzystywane na platformie .NET.
+Pozwala na zarządzanie zewnętrznymi zależnościami z uwzględnieniem akceptowanych wersji czy różnych źródeł pakietów.
+NuGet jest zintegrowany z Visual Studio, w którym możemy zarządzać pakietami dla projektu / solucji (Manage NuGet Packages).
+Dostępna jest również linia poleceń oparta na PowerShell (Package Manager Console) która umożliwia rozbudowane zarządzanie pakietami:
+* Instalację pakietów (Install-Package)
+* Aktualizację wersji pakietów (Update-Package)
+* Deinstalację pakietów (Uninstall-Package)
+* Wyszukiwanie pakietów i wiele innych - szczegóły dostępne są [w dokumentacji](http://docs.nuget.org/Consume/Package-Manager-Console-PowerShell-Reference)
+Listę pakietów dostępnych w domyślnym repozytorium (wraz z wyszukiwarką) możemy znaleźć na [stronie projektu](https://www.nuget.org/).
 
 ### StyleCop
 
