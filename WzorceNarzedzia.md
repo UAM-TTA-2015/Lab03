@@ -32,7 +32,8 @@ TODO
 
 ### Inne przydatne wzorce projektowe
 
-TODO
+Wiele wzorców projektowych umożliwia tworzenie wysokiej jakości, testowanego oprogramowania.
+Spośród nich jest kilka, które szczególnie często przydają się przy tworzeniu testowalnego kodu, a także do tworzenia do niego testów.
 * Facade - TODO
 * Proxy - TODO
 * Wrapper - TODO
