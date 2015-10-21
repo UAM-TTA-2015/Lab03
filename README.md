@@ -11,5 +11,5 @@ Dowiemy się w jaki sposób rozluźnić zależności pomiędzy komponentami tak,
 Zobaczymy jakich narzędzi możemy użyć aby tworzenie wysokiej jakości aplikacji było szybkie i wygodne.
 
 ### Materiały
-* Prezentacja: [Wzorce i narzędzia](WzorceNarzdzia.md)
+* Prezentacja: [Wzorce i narzędzia](WzorceNarzedzia.md)
 * Przykładowa aplikacja: [TODO](NULL.md)
